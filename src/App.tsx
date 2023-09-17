@@ -9,9 +9,7 @@ function App() {
         <thead>
           <tr>
             <th>Pronombre</th>
-            <th>Pasado</th>
-            <th>Presente</th>
-            <th>Futuro</th>
+            <th>Tiempo</th>
             <th>Complemento</th>
             <th>Sustantivo</th>
           </tr>
