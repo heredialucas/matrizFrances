@@ -22,7 +22,25 @@ function App() {
               <tr key={index}>
                 <th>{user.pronombre}</th>
                 <th>{user.pasado}</th>
+                <th>{user.complementario}</th>
+                <th>{user.sustantivo}</th>
+              </tr>
+            );
+          })}
+          {matrizEng.map((user, index) => {
+            return (
+              <tr key={index}>
+                <th>{user.pronombre}</th>
                 <th>{user.presente}</th>
+                <th>{user.complementario}</th>
+                <th>{user.sustantivo}</th>
+              </tr>
+            );
+          })}
+          {matrizEng.map((user, index) => {
+            return (
+              <tr key={index}>
+                <th>{user.pronombre}</th>
                 <th>{user.futuro}</th>
                 <th>{user.complementario}</th>
                 <th>{user.sustantivo}</th>
