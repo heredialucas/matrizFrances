@@ -9,7 +9,7 @@ function App() {
         <thead>
           <tr>
             <th>Pronombre</th>
-            <th>Tiempo</th>
+            <th>Pasado</th>
             <th>Complemento</th>
             <th>Sustantivo</th>
           </tr>
@@ -25,6 +25,16 @@ function App() {
               </tr>
             );
           })}
+        </tbody>
+        <thead>
+          <tr>
+            <th>Pronombre</th>
+            <th>Presente</th>
+            <th>Complemento</th>
+            <th>Sustantivo</th>
+          </tr>
+        </thead>
+        <tbody>
           {matrizEng.map((user, index) => {
             return (
               <tr key={index}>
@@ -35,6 +45,16 @@ function App() {
               </tr>
             );
           })}
+        </tbody>
+        <thead>
+          <tr>
+            <th>Pronombre</th>
+            <th>Futuro</th>
+            <th>Complemento</th>
+            <th>Sustantivo</th>
+          </tr>
+        </thead>
+        <tbody>
           {matrizEng.map((user, index) => {
             return (
               <tr key={index}>
